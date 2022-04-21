@@ -11,6 +11,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+
 import static org.junit.Assert.*;
 
 public class TesteWeb {
@@ -45,7 +46,6 @@ public class TesteWeb {
     public void finalizaTeste(){
         driver.quit();
     }
-
 }
 
 
