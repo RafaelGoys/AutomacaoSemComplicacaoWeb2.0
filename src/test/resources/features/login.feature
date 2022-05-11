@@ -1,8 +1,8 @@
 #language:pt
 Funcionalidade: login
 
-  Contexto: Dado que a modal esteja sendo exibda
-
+  Contexto:
+    Dado que a modal esteja sendo exibida
 
   Cenario: Fechar a modal ao clicar fora da mesma
     Quando for realizado um clique fora da modal
@@ -17,7 +17,7 @@ Funcionalidade: login
     Entao a pagina Create New Account deve ser exibida
 
   Esquema do Cenario: Realizar login com <identificacao>
-    Quando os campos de login forem preenchidos da seguinte forma:
+    Quando os campos de login forem preenchidos da seguinte forma
       | login    | <login>    |
       | password | <password> |
       | remember | <remember> |
