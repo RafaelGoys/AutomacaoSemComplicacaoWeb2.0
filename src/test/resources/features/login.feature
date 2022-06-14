@@ -30,8 +30,9 @@ Funcionalidade: login
 
     Exemplos:
       | identificacao   | login   | password | remember |
-      | todos os campos | chronos | Senha123 | true     |
+      | todos os campos | erro    | Senha123 | true     |
       | todos os campos | chronos | Senha123 | false    |
+
   @LoginInvalido
   Esquema do Cenario: Realizar login com <identificacao>
     Quando os campos de login forem preenchidos da seguinte forma
