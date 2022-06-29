@@ -11,3 +11,9 @@ Funcionalidade: Account CRUD
       | country  | Brazil                   |
     Entao deve ser possivel logar no sistema apos o cadastro
 
+  @alteracaoCRUD
+  Cenario: Realizar alteracao conta
+    Dado que esteja logado no sistema com
+      | login    | chronosGoys |
+      | password | Senha123    |
+      | remember | false       |
